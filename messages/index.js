@@ -1,7 +1,7 @@
 "use strict";
 var builder = require("botbuilder");
 var botbuilder_azure = require("botbuilder-azure");
-var mysql = require("mysql");
+//var mysql = require("mysql");
 
 var useEmulator = (process.env.NODE_ENV == 'development');
 

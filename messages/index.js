@@ -16,6 +16,7 @@ var bot = new builder.UniversalBot(connector);
 
 bot.dialog('/', function (session) {
     session.send('You said ' + session.message.text);
+    console.log("I answered");
 });
 
 if (useEmulator) {
